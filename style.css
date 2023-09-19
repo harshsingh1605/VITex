@@ -136,6 +136,12 @@
     margin-left: 25px;
 }
 
+.body{
+    background-image: url(https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+}
+
+
+
 
 
 
@@ -197,10 +203,10 @@
     margin-left: 25px;
     border-style:solid ;
     border-width: 5px;
-    border-top-color: #23e5db;
-    border-left-color: #ffce32;
-    border-right-color: #3a77ff;
-    border-bottom-color: #3a77ff;
+    border-top-color: #0384ef;
+    border-left-color: #f7ea03;
+    border-right-color: #fe0000;
+    border-bottom-color: #09d614;
     font-size: 15px;
     cursor: pointer;
     padding: 6px 12px;
@@ -209,34 +215,6 @@
     color: black;
     display: flex;
 }
-
-
-
-
-/* <!-- =============================== * ad 1 * ============================================ --> */
-
-.ad_img img{
-    width: 700px;
-    position: relative;
-    z-index: -1;
-}
-.ad_img{
-    width: 700px;
-    margin: auto;
-    margin-top: 35px;
-    height: 300px;
-    position: relative;
-}
-.ad_img i{
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-
-
 
 /* <!-- =============================== * product* ============================================ --> */
 
@@ -362,7 +340,7 @@
 }
 /* ---------------------------*/
 .main_footer {
-    background-color: #3d8b97;
+    background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
     margin-top: 80px;
     padding: 40px;
 }
@@ -385,6 +363,7 @@
     display: block;
     color: #000;
     text-align: center;
+    
 }
 .footer_box a:hover {
     color: #444444;
