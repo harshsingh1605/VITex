@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="uts-8">
+    <title>VITex</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width-device=width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+<!--------navbar------------------->
+<div class="header">
+    <div class="navbar">
+        <img src="C:\Users\harsh\OneDrive\Documents\VITexlogo.jpg">
+        <div class="country_select" id="country">
+            <div class="select">
+                <p id="text">Select your Hostel Block</p>
+                <i class="fa-solid fa-chevron-down" id="moving"></i>
+            </div>
+            <ul class="option_box" id="list">
+                <li class="option" onclick="myfunction('A')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>A</p>
+                </li>
+                <li class="option" onclick="myfunction('B')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>B</p>
+                </li>
+                <li class="option" onclick="myfunction('C')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>C</p>
+                </li>
+                <li class="option" onclick="myfunction('D')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>D</p>
+                </li>
+                <li class="option" onclick="myfunction('E')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>E</p>
+                </li>
+                <li class="option" onclick="myfunction('F')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>F</p>
+                </li>
+                <li class="option" onclick="myfunction('G')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>G</p>
+                </li>
+                <li class="option" onclick="myfunction('H')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>H</p>
+                </li>
+
+                <li class="option" onclick="myfunction('J')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>J</p>
+                    </li>
+                <li class="option" onclick="myfunction('K')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>K</p>
+                </li>
+                <li class="option" onclick="myfunction('L')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>L</p>
+                </li>
+                <li class="option" onclick="myfunction('M')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>M</p>
+                    </li>
+                <li class="option" onclick="myfunction('N')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>N</p>
+                </li>
+                <li class="option" onclick="myfunction('P')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>P</p>
+                </li>
+                <li class="option" onclick="myfunction('Q')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Q</p>
+                </li>
+                <li class="option" onclick="myfunction('R')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>R</p>
+                </li>
+            </ul>
+        </div>
+    <div class="search_box">
+        <input type="text" class="searchClass" id="searchId" placeholder="Find anythings you want.">
+        <p><i class="fa-solid fa-magnifying-glass"></i></p>
+    </div>
+    <div class="language">
+        <p id="eng_tag">English</p>
+        <ul class="hin_eng">
+            <li onclick="languages('English')">English</li>
+            
+        </ul>
+    </div>&nbsp;&nbsp;
+    <div class="message">
+        <i class="fa-regular fa-comment"></i>
+    </div>&nbsp;&nbsp;
+    <div class="message">
+        <i class="fa-regular fa-bell"></i>
+    </div>
+    <div class="your_logo">
+        <div class="myImage" id="myImage_Id">
+            <img src="Images/MyImage.png" >
+        </div>
+        <div class="gropdown" id="gropdownId">
+            <div class="nameImg">
+                <img src="Images/MyImage.png">
+                <p>Tech Titans</p>
+            </div>
+            <ul>
+                <li>
+                    <i class="fa-regular fa-user"></i>
+                    <p>My Account</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-box"></i>
+                    <p>My Orders</p>
+                </li><hr/>
+                <li>
+                    <i class="fa-regular fa-question-circle"></i>
+                    <p>Help</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-gear"></i>
+                    <p>Setting</p>
+                </li>
+                <hr/>
+                <li>
+                    <i class="fa-regular fa-arrow-right-to-bracket"></i>
+                    <p>Log Out</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+       <div class="selling_page">
+           <button><i class="fa-solid fa-plus"></i><p>SELL</p></button>
+
+       </div>
+    </div>
+</div>
+<!--------ads--------->
+<div class="ad_img">
+    <img src="Images/Ad.png" alt="">
+    <i class="fa-regular fa-rectangle-xmark" id="ad_icon"></i>
+</div>
+<div class="download">
+        <img src="Images/Download.png" class="images">
+        <div class="text">
+            <h1>Try VITex</h1>
+            <p>Buy,sell and find just about anything using our app on your mobile.</p>
+        </div>
+        <!-- <div class="download_store">
+            <p>Get Your App Today</p>
+            <img src="Images/Playstore.png" alt="">
+        </div> -->
+    </div>
+</div>
+<!---------------------------------------------->
+<div class="main_footer">
+    <div class="footer">
+        <div class="footer_box">
+            <h2>POPULAR LOCATIONS</h2>
+            <a href="#">Foodies</a>
+            <a href="#">M.G.R. Block</a>
+            <a href="#">ChotaDhobi</a>
+            <a href="#">Enzo</a>
+        </div>
+        <div class="footer_box">
+            <h2>Trending LOCATIONS</h2>
+            <a href="#">Q-block</a>
+            <a href="#">B-annex</a>
+            <a href="#">M-annex</a>
+            <a href="#">D-annex</a>
+        </div>
+        <div class="footer_box">
+            <h2>ABOUT US</h2>
+            <a href="#">About VITex</a>
+            <a href="#">Careers</a>
+            <a href="#">Contact Us</a>
+            <a href="#">VITPeople</a>
+        </div>
+        <div class="footer_box">
+            <h2>OLX</h2>
+            <a href="#">Help</a>
+            <a href="#">SiteMap</a>
+            <a href="#">Legal and Privacy Information</a>
+            <a href="#">Blog</a>
+        </div>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
